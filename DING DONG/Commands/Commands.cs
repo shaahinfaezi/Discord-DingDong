@@ -44,81 +44,7 @@ namespace DING_DONG.Commands
 
         
 
-        [Command("DING")]
-        [RequireUserPermission(GuildPermission.Administrator)]
-        public async Task Echo()
-        {
-
-            var embed = new EmbedBuilder();
-            embed.WithTitle("Idk");
-            embed.WithDescription("Dong");
-            embed.WithColor(Color.DarkBlue);
-            await Context.Channel.SendMessageAsync("", false, embed.Build());
-            
-
-        }
-        [Command("ServerUserCount")]
-        [RequireUserPermission(GuildPermission.Administrator)]
-        public async Task Usercount()
-        {
-           
-            var Users = Context.Guild.Users;
-            foreach (var user in Users)
-            {
-                if (user.IsBot == false)
-                {
-                    usercount+=1;
-                }
-            }
-            
-            await Context.Guild.CreateVoiceChannelAsync("User Count : " + usercount.ToString(), null, null);
-      
-        }
-        [Command("Invisible")]
-        [RequireUserPermission(GuildPermission.Administrator)]
-        public async Task invisible_check()
-        {
-
-            foreach (var user in Context.Guild.Users)
-            {
-
-                int userStatus = (int)user.Status;
-                if (user.IsBot == false && userStatus == 0 && user.VoiceChannel != null)
-                {
-
-                    await Context.Channel.SendMessageAsync(user + " is GAY");
-                }
-
-
-
-            }
-
-        }
-
-
-        [Command("Pick")]
-        public async Task Pick([Remainder]string msg)
-        {
-
-            if (Role_Check((SocketGuildUser)Context.User, "GamePickerRole"))
-            {
-                string[] options = msg.Split(new char[] { '|' }, StringSplitOptions.RemoveEmptyEntries);
-                Random random = new Random();
-                string pick = options[random.Next(options.Length)];
-                var embed = new EmbedBuilder();
-                embed.WithTitle("Game");
-                embed.WithDescription(pick);
-                embed.WithColor(Color.Gold);
-                await Context.Channel.SendMessageAsync("", false, embed.Build());
-            }
-            else
-            {
-                await Context.Channel.SendMessageAsync("You Can't do that!");
-               
-                
-            }
-
-        }
+     
 
 
 
@@ -430,7 +356,7 @@ emoji7 + " | " + emoji8 + " | " + emoji9;
                 switch (PICK)
                 {
                     case 1:
-                        if ((emoji_1 != emoji_10) || (emoji_1 != emoji_11))
+                        if ((emoji_1 != emoji_10) && (emoji_1 != emoji_11))
                         {
                             emoji_1 = emoji_10;
                             turn = false;
@@ -441,7 +367,7 @@ emoji7 + " | " + emoji8 + " | " + emoji9;
                         }
                         break;
                     case 2:
-                        if ((emoji_2 != emoji_10) || (emoji_2 != emoji_11))
+                        if ((emoji_2 != emoji_10) && (emoji_2 != emoji_11))
                         {
                             emoji_2 = emoji_10;
                             turn = false;
@@ -452,7 +378,7 @@ emoji7 + " | " + emoji8 + " | " + emoji9;
                         }
                         break;
                     case 3:
-                        if ((emoji_3 != emoji_10) || (emoji_3 != emoji_11))
+                        if ((emoji_3 != emoji_10) && (emoji_3 != emoji_11))
                         {
                             emoji_3 = emoji_10;
                             turn = false;
@@ -463,7 +389,7 @@ emoji7 + " | " + emoji8 + " | " + emoji9;
                         }
                         break;
                     case 4:
-                        if ((emoji_4 != emoji_10) || (emoji_4 != emoji_11))
+                        if ((emoji_4 != emoji_10) && (emoji_4 != emoji_11))
                         {
                             emoji_4 = emoji_10;
                             turn = false;
@@ -474,7 +400,7 @@ emoji7 + " | " + emoji8 + " | " + emoji9;
                         }
                         break;
                     case 5:
-                        if ((emoji_5 != emoji_10) || (emoji_5 != emoji_11))
+                        if ((emoji_5 != emoji_10) && (emoji_5 != emoji_11))
                         {
                             emoji_5 = emoji_10;
                             turn = false;
@@ -485,7 +411,7 @@ emoji7 + " | " + emoji8 + " | " + emoji9;
                         }
                         break;
                     case 6:
-                        if ((emoji_6 != emoji_10) || (emoji_6 != emoji_11))
+                        if ((emoji_6 != emoji_10) && (emoji_6 != emoji_11))
                         {
                             emoji_6 = emoji_10;
                             turn = false;
@@ -496,7 +422,7 @@ emoji7 + " | " + emoji8 + " | " + emoji9;
                         }
                         break;
                     case 7:
-                        if ((emoji_7 != emoji_10) || (emoji_7 != emoji_11))
+                        if ((emoji_7 != emoji_10) && (emoji_7 != emoji_11))
                         {
                             emoji_7 = emoji_10;
                             turn = false;
@@ -509,7 +435,7 @@ emoji7 + " | " + emoji8 + " | " + emoji9;
                         
                         
                     case 8:
-                        if ((emoji_8 != emoji_10) || (emoji_8 != emoji_11))
+                        if ((emoji_8 != emoji_10) && (emoji_8 != emoji_11))
                         {
                             emoji_8 = emoji_10;
                             turn = false;
@@ -520,7 +446,7 @@ emoji7 + " | " + emoji8 + " | " + emoji9;
                         }
                         break;
                     case 9:
-                        if ((emoji_9 != emoji_10) || (emoji_9 != emoji_11))
+                        if ((emoji_9 != emoji_10) && (emoji_9 != emoji_11))
                         {
                             emoji_9 = emoji_10;
                             turn = false;
@@ -543,7 +469,7 @@ emoji7 + " | " + emoji8 + " | " + emoji9;
                 switch (PICK)
                 {
                     case 1:
-                        if ((emoji_1 != emoji_10) || (emoji_1 != emoji_11))
+                        if ((emoji_1 != emoji_10) && (emoji_1 != emoji_11))
                         {
                             emoji_1 = emoji_11;
                             turn = true;
@@ -554,7 +480,7 @@ emoji7 + " | " + emoji8 + " | " + emoji9;
                         }
                         break;
                     case 2:
-                        if ((emoji_2 != emoji_10) || (emoji_2 != emoji_11))
+                        if ((emoji_2 != emoji_10) && (emoji_2 != emoji_11))
                         {
                             emoji_2 = emoji_11;
                             turn = true;
@@ -565,7 +491,7 @@ emoji7 + " | " + emoji8 + " | " + emoji9;
                         }
                         break;
                     case 3:
-                        if ((emoji_3 != emoji_10) || (emoji_3 != emoji_11))
+                        if ((emoji_3 != emoji_10) && (emoji_3 != emoji_11))
                         {
                             emoji_3 = emoji_11;
                             turn = true;
@@ -577,7 +503,7 @@ emoji7 + " | " + emoji8 + " | " + emoji9;
                         }
                         break;
                     case 4:
-                        if ((emoji_4 != emoji_10) || (emoji_4 != emoji_11))
+                        if ((emoji_4 != emoji_10) && (emoji_4 != emoji_11))
                         {
                             emoji_4 = emoji_11;
                             turn = true;
@@ -588,7 +514,7 @@ emoji7 + " | " + emoji8 + " | " + emoji9;
                         }
                         break;
                     case 5:
-                        if ((emoji_5 != emoji_10) || (emoji_5 != emoji_11))
+                        if ((emoji_5 != emoji_10) && (emoji_5 != emoji_11))
                         {
                             emoji_5 = emoji_11;
                             turn = true;
@@ -599,7 +525,7 @@ emoji7 + " | " + emoji8 + " | " + emoji9;
                         }
                         break;
                     case 6:
-                        if ((emoji_6 != emoji_10) || (emoji_6 != emoji_11))
+                        if ((emoji_6 != emoji_10) && (emoji_6 != emoji_11))
                         {
                             emoji_6 = emoji_11;
                             turn = true;
@@ -610,7 +536,7 @@ emoji7 + " | " + emoji8 + " | " + emoji9;
                         }
                         break;
                     case 7:
-                        if ((emoji_7 != emoji_10) || (emoji_7 != emoji_11))
+                        if ((emoji_7 != emoji_10) && (emoji_7 != emoji_11))
                         {
                             emoji_7 = emoji_11;
                             turn = true;
@@ -621,7 +547,7 @@ emoji7 + " | " + emoji8 + " | " + emoji9;
                         }
                         break;
                     case 8:
-                        if ((emoji_8 != emoji_10) || (emoji_8 != emoji_11))
+                        if ((emoji_8 != emoji_10) && (emoji_8 != emoji_11))
                         {
 
                             emoji_8 = emoji_11;
@@ -633,7 +559,7 @@ emoji7 + " | " + emoji8 + " | " + emoji9;
                         }
                         break;
                     case 9:
-                        if ((emoji_9 != emoji_10) || (emoji_9 != emoji_11))
+                        if ((emoji_9 != emoji_10) && (emoji_9 != emoji_11))
                         {
                             emoji_9 = emoji_11;
                             turn = true;
@@ -802,8 +728,8 @@ emoji7 + " | " + emoji8 + " | " + emoji9;
         }
         public void  image_generator(SocketGuildUser user)
         {
-            string css = "<style>\n h1{\n    color:#ffffff ;\n border-radius:20px;\n font-family: Arial, Helvetica, sans-serif;\n font-size:150%;\n}\n</style>\n";
-            string html = String.Format("<body bgcolor=039BE5><h1>{0} Won!</h1>\n</body>", user.Username);
+            string css = "<style>\n h1{\n    color:#BB0A21 ;\n border-radius:20px;\n font-family: Arial, Helvetica, sans-serif;\n font-size:150%;\n}\n</style>\n";
+            string html = String.Format("<body bgcolor=383838><h1>{0} Won!</h1>\n</body>", user.Username);
             var Convertor = new HtmlToImageConverter
             {
                 Width = 280,
