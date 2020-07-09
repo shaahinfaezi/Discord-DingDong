@@ -45,6 +45,9 @@ And also these for the ranks:
 
 
 
+
+
+
 :red_circle: **Ding Dong's commands :**
 
  **1.  In order to start the game you have to choose your player with these commands: `.player1` & `.player2`**
