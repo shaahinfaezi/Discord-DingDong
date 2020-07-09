@@ -1,5 +1,5 @@
 ![alt text](https://github.com/shaahinfaezi/DINGDONG-DiscordBot/blob/master/DING%20DONG/DD.ico?raw=true) 
-# DINGDONG
+# DING DONG
 
 ## :x: Tic-Tac-Toe :o: in Discord!!!
 
