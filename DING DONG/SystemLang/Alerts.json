@@ -1,6 +1,5 @@
 {
     "key":"value",
-    "GamePickerRole":"Game_Picker",
     "Player1Role":"Player1",
     "Player2Role":"Player2",
     "TicTacToeRole":"TicTacToe",
