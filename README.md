@@ -4,6 +4,7 @@ This is a Tic-Tac-Toe Bot for discord,That I made for my discord server : https:
 Currently I can't run this Bot on a server,So if you want to use it follow these steps:
 
 #1 : Make a Discord Bot here : https://discord.com/developers/applications 
+
 For more info check this video : https://www.youtube.com/watch?v=e2iaRVf4sho&t
 
 #2 : Invite the bot to your server and add these roles to the server roles 
