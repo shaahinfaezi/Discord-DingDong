@@ -15,9 +15,9 @@ For more info check this video : https://www.youtube.com/watch?v=e2iaRVf4sho&t
 
 {
 
-`Player1`,
+`Player1`
 
-`Player2`,
+`Player2`
 
 `TicTacToe`:People will need this role to play the game,note that u can change this in the code.
 
@@ -25,13 +25,13 @@ For more info check this video : https://www.youtube.com/watch?v=e2iaRVf4sho&t
 
 And also these for the ranks:
 
-`TTT BRONZE`,
+`TTT BRONZE`
 
-`TTT SILVER`,
+`TTT SILVER`
 
-`TTT GOLD`,
+`TTT GOLD`
 
-`TTT DIAMOND`,
+`TTT DIAMOND`
 
 `TTT MASTER`
 
@@ -45,7 +45,7 @@ And also these for the ranks:
 
 
 
-**Ding Dong's commands :**
+:red_circle: **Ding Dong's commands :**
 
  **1.  In order to start the game you have to choose your player with these commands: `.player1` & `.player2`**
 
