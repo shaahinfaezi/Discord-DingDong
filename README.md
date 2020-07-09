@@ -12,6 +12,7 @@
 For more info check this video : https://www.youtube.com/watch?v=e2iaRVf4sho&t
 
 #2 : Invite the bot to your server and add these roles to the server roles 
+
 {
 
 `Player1`,
@@ -36,25 +37,25 @@ And also these for the ranks:
 
 }
 
-#3 :Run the bot for the first time and then go to the bot folder and go through this path "\DINGDONG-DiscordBot\DING DONG\bin\Debug\Resources" and in the config.json file you will need to set the token of the bot which you can find in [Discord Developers pager](https://discord.com/developers/applications), the command prefix , your Bot's ID which u can also find in the developer page,the ID of the channel that the bot will respond and your server's ID.
+#3 :Run the bot for the first time and then go to the bot folder and go through this path "\DINGDONG-DiscordBot\DING DONG\bin\Debug\Resources" and in the config.json file you will need to set the token of the bot which you can find in [Discord Developers Page](https://discord.com/developers/applications), the command prefix , your Bot's ID which u can also find in the developer page,the ID of the channel that the bot will respond and your server's ID.
 
 (Summary of #3 :Run the bot and copy paste the strings)
 
-* When you did all of that you're ready to launch the bot , you can launch it through the C# Solution or make a shortcut of the app which you can find on the bin folder : "\DINGDONG-DiscordBot\DING DONG\bin" 
+**When you did all of that you're ready to launch the bot , you can launch it through the C# Solution or make a shortcut of the app which you can find on the bin folder : "\DINGDONG-DiscordBot\DING DONG\bin"**
 
 
 
-**Ding Dong's commands : **
+**Ding Dong's commands :**
 
- 1.  In order to start the game you have to choose your player with these commands: `.player1` & `.player2`
+ **1.  In order to start the game you have to choose your player with these commands: `.player1` & `.player2`**
 
- 2.  Now you can play by choosing the number you want with this command:  `.ttt [number between 1 and 9]`
+ **2.  Now you can play by choosing the number you want with this command:  `.ttt [number between 1 and 9]`**
 
- 3. You can also check your wins with this command(Leaderboards will be added) : `.tttstats`
+ **3. You can also check your wins with this command(Leaderboards will be added) : `.tttstats`**
 
 
 
-**__FEEL FREE TO CHANGE THE BOT HOWEVER YOU WANT AND PLZ STAR THE BOT__**
+### **__FEEL FREE TO CHANGE THE BOT HOWEVER YOU WANT AND PLZ STAR THE BOT__**
 
 
 
