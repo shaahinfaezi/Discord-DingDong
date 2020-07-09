@@ -55,7 +55,7 @@ namespace DING_DONG.Commands
         {
             if (Role_Check((SocketGuildUser)Context.User, "TicTacToeRole"))
             {
-                if (Context.Channel.Id == Convert.ToUInt16(Config.bot.channelid))
+                if (Context.Channel.Id == 619570247476707328)
                 {
                     var account = UserAccounts.GetAccount(Context.User);
                     var embed = new EmbedBuilder();
@@ -85,7 +85,7 @@ namespace DING_DONG.Commands
             {
                 if (Role_Check((SocketGuildUser)Context.User, "TicTacToeRole"))
                 {
-                    if (Context.Channel.Id == Convert.ToUInt16(Config.bot.channelid))
+                    if (Context.Channel.Id == 619570247476707328)
                     {
                         
                         Role_Add((SocketGuildUser)Context.User, "Player1Role");
@@ -122,7 +122,7 @@ namespace DING_DONG.Commands
                     { 
                         if (Role_Check((SocketGuildUser)Context.User, "TicTacToeRole"))
                         {
-                            if (Context.Channel.Id == Convert.ToUInt16(Config.bot.channelid))
+                            if (Context.Channel.Id == 619570247476707328)
                             {
                                 Role_Add((SocketGuildUser)Context.User, "Player2Role");
                                 player2 = Context.Guild.GetUser(Context.User.Id);
@@ -176,7 +176,7 @@ namespace DING_DONG.Commands
         {
             char pickc = Convert.ToChar(pick);
             int picki = Convert.ToInt32(pick);
-            if (Context.Channel.Id == Convert.ToUInt16(Config.bot.channelid))
+            if (Context.Channel.Id == 619570247476707328)
             {
                 if (TICTACTOE == true)
                 {
