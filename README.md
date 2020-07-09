@@ -1,4 +1,5 @@
-# DINGDONG-DiscordBot
+![alt text](https://github.com/shaahinfaezi/DINGDONG-DiscordBot/blob/master/DING%20DONG/DD.ico?raw=true)
+# DINGDONG
 
 ## :x: Tic-Tac-Toe :o: in Discord!!!
 
@@ -41,7 +42,7 @@ And also these for the ranks:
 
 * When you did all of that you're ready to launch the bot , you can launch it through the C# Solution or make a shortcut of the app which you can find on the bin folder : "\DINGDONG-DiscordBot\DING DONG\bin" 
 
-![alt text](https://github.com/shaahinfaezi/DINGDONG-DiscordBot/blob/master/DING%20DONG/DD.ico?raw=true)
+
 
 **Ding Dong's commands : **
 
@@ -53,7 +54,7 @@ And also these for the ranks:
 
 
 
-**FEEL FREE TO CHANGE THE BOT HOWEVER YOU WANT AND PLZ STAR THE BOT**
+**__FEEL FREE TO CHANGE THE BOT HOWEVER YOU WANT AND PLZ STAR THE BOT__**
 
 
 
