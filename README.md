@@ -1,4 +1,4 @@
-![alt text](https://github.com/shaahinfaezi/DINGDONG-DiscordBot/blob/master/DING%20DONG/DD.ico?raw=true)
+![alt text](https://github.com/shaahinfaezi/DINGDONG-DiscordBot/blob/master/DING%20DONG/DD.ico?raw=true) 
 # DINGDONG
 
 ## :x: Tic-Tac-Toe :o: in Discord!!!
