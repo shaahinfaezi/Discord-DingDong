@@ -4,8 +4,7 @@
 ## :x: Tic-Tac-Toe :o: in Discord!!!
 
 
-### This is a Tic-Tac-Toe Bot for discord , That I made for [my discord server](https://discord.gg/P2BrjMN) , Currently I can't run this Bot on a server , So if you want to use it follow these steps:
-
+### This is a Tic-Tac-Toe Bot for discord , That I made for [my discord server](https://discord.gg/P2BrjMN).
 ## Installing and Running the bot:
 
 
@@ -43,12 +42,13 @@ And also these for the ranks:
 
 (Summary of #3 :Run the bot and set the configs)
 
-**When you did all of that you're ready to launch the bot , you can launch it through the C# Solution or make a shortcut of the app which you can find on the bin folder : "\DINGDONG-DiscordBot\DING DONG\bin"**
+* **When you did all of that you're ready to launch the bot , you can launch it through the C# Solution or make a shortcut of the app which you can find on the bin folder : "\DINGDONG-DiscordBot\DING DONG\bin"**
 
 
 
 
 
+## Playing Tic-Tac-Toe 
 
 :red_circle: **Ding Dong's commands :**
 
