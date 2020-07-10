@@ -51,7 +51,7 @@ And also these for the ranks:
 
 ## Playing Tic-Tac-Toe 
 
-### :red_circle: **Ding Dong's commands :**
+### **:red_circle: **Ding Dong's commands :**
 
  **1.  In order to start the game you have to choose your player with these commands: `.player1` & `.player2`**
 
@@ -61,15 +61,15 @@ And also these for the ranks:
 
 ### :black_circle: **Ranks :**
 
-**10 wins :  `BRONZE`
+**10 wins :  `BRONZE`**
 
-**20 wins :  `SILVER` 
+**20 wins :  `SILVER`** 
 
-**30 wins :  `GOLD` 
+**30 wins :  `GOLD`** 
 
-**40 wins :  `DIAMOND` 
+**40 wins :  `DIAMOND`** 
 
-**50 wins :  `Master`
+**50 wins :  `Master`**
 
 ### **__FEEL FREE TO CHANGE THE BOT HOWEVER YOU WANT AND PLZ STAR THE BOT__**
 
