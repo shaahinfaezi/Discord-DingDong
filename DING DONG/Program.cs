@@ -19,6 +19,7 @@ using DiscordInteractivity;
 
 
 
+
 namespace DING_DONG
 {
 
@@ -72,11 +73,6 @@ namespace DING_DONG
 
 
 
-
-
-
-
-
         private async Task Log(Discord.LogMessage msg)
         {
             Console.WriteLine(msg.Message);
@@ -108,8 +104,9 @@ namespace DING_DONG
 
         public async Task Onclient()
         {
-            var guild = _client.GetGuild(Convert.ToUInt16(Config.bot.serverlid));
-            IMessageChannel channel = guild.GetChannel(Convert.ToUInt16(Config.bot.channelid)) as IMessageChannel;
+            
+            var guild = _client.GetGuild(Convert.ToUInt64(Config.bot.serverid));
+            IMessageChannel channel = guild.GetChannel(Convert.ToUInt64(Config.bot.channelid)) as IMessageChannel;
             await channel.SendMessageAsync("Hey @everyone I'm UP and running!");
 
         }

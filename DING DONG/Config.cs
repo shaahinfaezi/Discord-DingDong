@@ -37,7 +37,7 @@ namespace DING_DONG
             public string cmdPrefix;
             public string clientid;
             public string channelid;
-            public string serverlid;
+            public string serverid;
         }
     }
 }
