@@ -1,11 +1,12 @@
 ![alt text](https://github.com/shaahinfaezi/DINGDONG-DiscordBot/blob/master/DING%20DONG/DD.ico?raw=true) 
-# DING DONG
 
-## :x: Tic-Tac-Toe :o: in Discord!!!
+
+# :x: Tic-Tac-Toe :o: in Discord!!!
 
 
 ### This is a Tic-Tac-Toe Bot for discord That I made for [my discord server](https://discord.gg/P2BrjMN).
-## Installing and Running the bot:
+
+## Installing and Running the bot
 
 
 #1 : Make a Discord Bot here : https://discord.com/developers/applications 
@@ -58,7 +59,13 @@ And also these for the ranks:
 
  **3. You can also check your wins with this command(Leaderboards will be added) : `.tttstats`**
 
+:black_circle: **Ranks :**
 
+**10 wins :  `BRONZE` 
+20 wins :  `SILVER` 
+30 wins :  `GOLD` 
+40 wins :  `DIAMOND` 
+50 wins :  `Master`**
 
 ### **__FEEL FREE TO CHANGE THE BOT HOWEVER YOU WANT AND PLZ STAR THE BOT__**
 
