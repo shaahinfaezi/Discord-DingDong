@@ -37,7 +37,7 @@ And also these for the ranks:
 
 }
 
-#3 :Run the bot for the first time and then go to the bot folder and go through this path "\DINGDONG-DiscordBot\DING DONG\bin\Debug\Resources" and in the config.json file you will need to set the token of the bot which you can find in [Discord Developers Page](https://discord.com/developers/applications), the command prefix , your Bot's ID which u can also find in the developer page,the ID of the channel that the bot will respond and your server's ID.
+#3 :Run the `Ding Dong.exe` file for the first time,you will run into some connection errors but don't worry just go to the bot folder and go through this path "\DINGDONG-DiscordBot\DING DONG\bin\Debug\Resources" and in the config.json file you will need to edit the file and set the token of the bot which you can find in [Discord Developers Page](https://discord.com/developers/applications), the command prefix , your Bot's ID which u can also find in the developer page,the ID of the channel that the bot will respond and your server's ID.
 
 (Summary of #3 :Run the bot and copy paste the strings)
 
