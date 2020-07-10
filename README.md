@@ -39,11 +39,11 @@ And also these for the ranks:
 
 }
 
-#3 :Run the `Ding Dong.sln` file for the first time with [Microsoft Visual Studio](https://visualstudio.microsoft.com/downloads/) , you will run into some connection errors but don't worry just go to the bot folder and go through this path "\DINGDONG-DiscordBot\DING DONG\bin\Debug\Resources" and in the config.json file you will need to edit the file and set the token of the bot which you can find in [Discord Developers Page](https://discord.com/developers/applications), the command prefix , your Bot's ID which u can also find in the developer page,the ID of the channel that the bot will respond and your server's ID.
+#3 :Run the `Ding Dong.sln` file for the first time with [Microsoft Visual Studio](https://visualstudio.microsoft.com/downloads/) , you will run into some connection errors but don't worry just go to the bot folder and go through this path "\DINGDONG-DiscordBot-master\DING DONG\bin\Debug\Resources" and in the config.json file you will need to edit the file and set the token of the bot which you can find in [Discord Developers Page](https://discord.com/developers/applications), the command prefix , your Bot's ID which u can also find in the developer page,the ID of the channel that the bot will respond and your server's ID.
 
 (Summary of #3 :Run the bot and set the configs)
 
-* **When you did all of that you're ready to launch the bot , you can launch it through the C# Solution or make a shortcut of the app which you can find on the bin folder : "\DINGDONG-DiscordBot\DING DONG\bin"**
+* **When you did all of that you're ready to launch the bot , you can launch it through the C# Solution or make a shortcut of the app which you can find on the Debug folder : "\DINGDONG-DiscordBot-master\DING DONG\bin\Debug"**
 
 
 
@@ -51,7 +51,7 @@ And also these for the ranks:
 
 ## Playing Tic-Tac-Toe 
 
-:red_circle: **Ding Dong's commands :**
+### :red_circle: **Ding Dong's commands :**
 
  **1.  In order to start the game you have to choose your player with these commands: `.player1` & `.player2`**
 
@@ -59,7 +59,7 @@ And also these for the ranks:
 
  **3. You can also check your wins with this command(Leaderboards will be added) : `.tttstats`**
 
-:black_circle: **Ranks :**
+### :black_circle: **Ranks :**
 
 **10 wins :  `BRONZE` 
 20 wins :  `SILVER` 
