@@ -63,13 +63,13 @@ And also these for the ranks:
 
 **10 wins :  `BRONZE`
 
-20 wins :  `SILVER` 
+**20 wins :  `SILVER` 
 
-30 wins :  `GOLD` 
+**30 wins :  `GOLD` 
 
-40 wins :  `DIAMOND` 
+**40 wins :  `DIAMOND` 
 
-50 wins :  `Master`**
+**50 wins :  `Master`
 
 ### **__FEEL FREE TO CHANGE THE BOT HOWEVER YOU WANT AND PLZ STAR THE BOT__**
 
