@@ -47,7 +47,7 @@ And also these for the ranks:
 
 * Server ID (OPTIONAL) : The ID of your server which you can get by right-clicking the server name on top left of discord and selecting "Copy ID" be sure that you have developer mode ON.(It's optional,If you want to get a "UP and running" message in your server everytime you launch the bot,use it!)
 
-**When you did all of that you're ready to launch the bot you can do that from the Ding Dong.exe app which you can find on the Debug folder : "\DINGDONG-DiscordBot-master\DING DONG\bin\Debug"**
+**When you did all of that you're ready to launch the bot you can do that from the Ding Dong.exe app which you can find in the Debug folder : "\DINGDONG-DiscordBot-master\DING DONG\bin\Debug"**
 
 
 
@@ -75,7 +75,7 @@ And also these for the ranks:
 
 **40 wins :  `DIAMOND`** 
 
-**50 wins :  `Master`**
+**50 wins :  `MASTER`**
 
 ### **__FEEL FREE TO CHANGE THE BOT HOWEVER YOU WANT AND PLZ STAR [@Ding Dong](https://github.com/shaahinfaezi/Discord-DingDong)__**
 
