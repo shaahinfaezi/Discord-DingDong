@@ -21,10 +21,6 @@ For more info check this video : https://www.youtube.com/watch?v=e2iaRVf4sho&t
 
 `Player2`
 
-`TicTacToe`:People will need this role to play the game,note that u can change this in the code.
-
-`Owner`:The server Owner AKA YOU.
-
 And also these for the ranks:
 
 `TTT BRONZE`
@@ -39,11 +35,10 @@ And also these for the ranks:
 
 }
 
-**#3** :Run the `Ding Dong.sln` file for the first time with [Microsoft Visual Studio](https://visualstudio.microsoft.com/downloads/) , you will run into some connection errors but don't worry just go to the bot folder and go through this path "\DINGDONG-DiscordBot-master\DING DONG\bin\Debug\Resources" and in the config.json file you will need to edit the file and set the token of the bot which you can find in [Discord Developers Page](https://discord.com/developers/applications), the command prefix , your Bot's ID which u can also find in the developer page,the ID of the channel that the bot will respond and your server's ID.
+**#3** :Go to the bot's folder and go through this path "\DINGDONG-DiscordBot-master\DING DONG\bin\Debug\Resources" and in the config.json file you will need to edit the file and set the token of the bot which you can find in [Discord Developers Page](https://discord.com/developers/applications), the command prefix(The default prefix is ".") ,your Bot's ID which u can also find in the developer page,the ID of the channel that the bot will respond and your server's ID.
+* **When you did all of that you're ready to launch the bot you can do that from the DingDong.exe app which you can find on the Debug folder : "\DINGDONG-DiscordBot-master\DING DONG\bin\Debug"**
 
-(Summary of #3 :Run the bot and set the configs)
 
-* **When you did all of that you're ready to launch the bot , you can launch it through the C# Solution or make a shortcut of the app which you can find on the Debug folder : "\DINGDONG-DiscordBot-master\DING DONG\bin\Debug"**
 
 
 
