@@ -43,9 +43,7 @@ And also these for the ranks:
 
 * Client ID : Bot's ID which you can also find in [Discord Developers Page](https://discord.com/developers/applications).
 
-* Channel ID (OPTIONAL) : The ID of the channel that the bot will respond in which you can get by right-clicking the text channel and selecting "Copy ID" be sure that you have developer mode ON this is how to do that [Developer Mode Tutorial](https://discordia.me/en/developer-mode#:~:text=Enabling%20Developer%20Mode%20is%20easy,the%20toggle%20to%20enable%20it) . (It's optional,If you want to limit the members,use it!)
-
-* Server ID (OPTIONAL) : The ID of your server which you can get by right-clicking the server name on top left of discord and selecting "Copy ID" be sure that you have developer mode ON.(It's optional,If you want to get a "UP and running" message in your server everytime you launch the bot,use it!)
+* Server ID (OPTIONAL) : The ID of your server which you can get by right-clicking the server name on top left of discord and selecting "Copy ID" be sure that you have developer mode ON this is how to do that [Developer Mode Tutorial](https://discordia.me/en/developer-mode#:~:text=Enabling%20Developer%20Mode%20is%20easy,the%20toggle%20to%20enable%20it).(It's optional,If you want to get a "UP and running" message in your server everytime you launch the bot,use it!)
 
 **When you did all of that you're ready to launch the bot you can do that from the Ding Dong.exe app which you can find in the Debug folder : "\Discord-DingDong-master\DING DONG\bin\Debug"**
 
