@@ -37,7 +37,7 @@ And also these for the ranks:
 
 **#3** :  Open the bot's folder and go through this path "\DINGDONG-DiscordBot-master\DING DONG\bin\Debug\Resources" then edit or open the config.json file and set the following:
 
-* Token : Bot's Token Which which you can find in [Discord Developers Page](https://discord.com/developers/applications).
+* Token : Bot's Token which you can find in [Discord Developers Page](https://discord.com/developers/applications).
 
 * Cmd Prefix : Command prefix for the bot(The default prefix is ".").
 
