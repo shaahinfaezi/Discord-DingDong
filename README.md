@@ -4,7 +4,7 @@
 # :x: Tic-Tac-Toe :o: in Discord!!!
 
 
-### This is a Tic-Tac-Toe Bot for discord That I made for [my discord server](https://discord.gg/P2BrjMN).
+### This is a Tic-Tac-Toe Bot for discord That I made for [my discord server](https://discord.gg/P2BrjMN)
 
 ## Installing and Running the bot
 
@@ -21,10 +21,6 @@ For more info check this video : https://www.youtube.com/watch?v=e2iaRVf4sho&t
 
 `Player2`
 
-`TicTacToe`:People will need this role to play the game,note that u can change this in the code.
-
-`Owner`:The server Owner AKA YOU.
-
 And also these for the ranks:
 
 `TTT BRONZE`
@@ -39,11 +35,19 @@ And also these for the ranks:
 
 }
 
-**#3** :Run the `Ding Dong.sln` file for the first time with [Microsoft Visual Studio](https://visualstudio.microsoft.com/downloads/) , you will run into some connection errors but don't worry just go to the bot folder and go through this path "\DINGDONG-DiscordBot-master\DING DONG\bin\Debug\Resources" and in the config.json file you will need to edit the file and set the token of the bot which you can find in [Discord Developers Page](https://discord.com/developers/applications), the command prefix , your Bot's ID which u can also find in the developer page,the ID of the channel that the bot will respond and your server's ID.
+**#3** :  Open the bot's folder and go through this path "\Discord-DingDong-master\DING DONG\bin\Debug\Resources" then edit or open the config.json file and set the following:
 
-(Summary of #3 :Run the bot and set the configs)
+* Token : Bot's Token which you can find in [Discord Developers Page](https://discord.com/developers/applications).
 
-* **When you did all of that you're ready to launch the bot , you can launch it through the C# Solution or make a shortcut of the app which you can find on the Debug folder : "\DINGDONG-DiscordBot-master\DING DONG\bin\Debug"**
+* Cmd Prefix : Command prefix for the bot(The default prefix is ".").
+
+* Client ID : Bot's ID which you can also find in [Discord Developers Page](https://discord.com/developers/applications).
+
+* Server ID (OPTIONAL) : The ID of your server which you can get by right-clicking the server name on top left of discord and selecting "Copy ID" be sure that you have developer mode ON this is how to do that [Developer Mode Tutorial](https://discordia.me/en/developer-mode#:~:text=Enabling%20Developer%20Mode%20is%20easy,the%20toggle%20to%20enable%20it).(It's optional,If you want to get a "UP and running" message in your server everytime you launch the bot,use it!)
+
+**When you did all of that you're ready to launch the bot you can do that from the Ding Dong.exe app which you can find in the Debug folder : "\Discord-DingDong-master\DING DONG\bin\Debug"**
+
+
 
 
 
@@ -57,7 +61,7 @@ And also these for the ranks:
 
  **2.  Now you can play by choosing the number you want with this command:  `.ttt [number between 1 and 9]`**
 
- **3. You can also check your wins with this command(Leaderboards will be added) : `.tttstats`**
+ **3. You can also check your wins with this command: `.tttstats`**
 
 ### :black_circle: **Ranks :**
 
@@ -69,9 +73,9 @@ And also these for the ranks:
 
 **40 wins :  `DIAMOND`** 
 
-**50 wins :  `Master`**
+**50 wins :  `MASTER`**
 
-### **__FEEL FREE TO CHANGE THE BOT HOWEVER YOU WANT AND PLZ STAR THE BOT__**
+### **__FEEL FREE TO CHANGE THE BOT HOWEVER YOU WANT AND PLZ STAR [@Ding Dong](https://github.com/shaahinfaezi/Discord-DingDong)__**
 
 
 
