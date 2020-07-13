@@ -33,7 +33,7 @@ And also these for the ranks:
 
 `TTT MASTER`
 
-}token of the bot which you can find in [Discord Developers Page](https://discord.com/developers/applications), the command prefix(The default prefix is ".") ,your Bot's ID which u can also find in the developer page,the ID of the channel that the bot will respond and your server's ID.
+}
 
 **#3** :Open the bot's folder and go through this path "\DINGDONG-DiscordBot-master\DING DONG\bin\Debug\Resources" and open the config.json file,edit or open  the config file and set the following:
 * Token : Bot's Token Which which you can find in [Discord Developers Page](https://discord.com/developers/applications).
