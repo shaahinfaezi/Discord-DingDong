@@ -5,6 +5,9 @@
    <h3> <p align="center"> :x: Tic-Tac-Toe :o: in Discord </p> </h3> 
 <p align="center"> <img src="https://img.shields.io/github/v/release/shaahinfaezi/Discord-DingDong"> </p>
 
+<p align="center">
+  <a href="https://imgur.com/phDSrMn"><img src="https://i.imgur.com/phDSrMn.gif" title="source: imgur.com" /></a>
+</p>
 
 ### This is a Tic-Tac-Toe Bot for discord That I made for [my discord server](https://discord.gg/P2BrjMN) using [Discord.net](https://github.com/discord-net/Discord.Net).
 
