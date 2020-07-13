@@ -118,7 +118,7 @@ namespace DING_DONG.Commands
             {
                 if (player2 == null)
                 {
-                    if (player1 != Context.User||Role_Check((SocketGuildUser)Context.User,"OwnerRole"))
+                    if (player1 != Context.User)
                     { 
                         if (Role_Check((SocketGuildUser)Context.User, "TicTacToeRole"))
                         {
