@@ -4,7 +4,7 @@
 # :x: Tic-Tac-Toe :o: in Discord!!!
 
 
-### This is a Tic-Tac-Toe Bot for discord That I made for [my discord server](https://discord.gg/P2BrjMN).
+### This is a Tic-Tac-Toe Bot for discord That I made for [my discord server](https://discord.gg/P2BrjMN)
 
 ## Installing and Running the bot
 
