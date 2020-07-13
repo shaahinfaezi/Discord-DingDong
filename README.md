@@ -33,10 +33,20 @@ And also these for the ranks:
 
 `TTT MASTER`
 
-}
+}token of the bot which you can find in [Discord Developers Page](https://discord.com/developers/applications), the command prefix(The default prefix is ".") ,your Bot's ID which u can also find in the developer page,the ID of the channel that the bot will respond and your server's ID.
 
-**#3** :Go to the bot's folder and go through this path "\DINGDONG-DiscordBot-master\DING DONG\bin\Debug\Resources" and in the config.json file you will need to edit the file and set the token of the bot which you can find in [Discord Developers Page](https://discord.com/developers/applications), the command prefix(The default prefix is ".") ,your Bot's ID which u can also find in the developer page,the ID of the channel that the bot will respond and your server's ID.
-* **When you did all of that you're ready to launch the bot you can do that from the DingDong.exe app which you can find on the Debug folder : "\DINGDONG-DiscordBot-master\DING DONG\bin\Debug"**
+**#3** :Open the bot's folder and go through this path "\DINGDONG-DiscordBot-master\DING DONG\bin\Debug\Resources" and open the config.json file,edit or open  the config file and set the following:
+* Token : Bot's Token Which which you can find in [Discord Developers Page](https://discord.com/developers/applications).
+
+*  Cmd Prefix : Command prefix for the bot(The default prefix is ".").
+
+* Client ID : Bot's ID which you can also find in [Discord Developers Page](https://discord.com/developers/applications).
+
+* Channel ID (OPTIONAL) : The ID of the channel that the bot will respond in which you can get by right-clicking the text channel and selecting "Copy ID" be sure that you have developer mode ON this is how to that [Developer Mode Tutorial](https://discordia.me/en/developer-mode#:~:text=Enabling%20Developer%20Mode%20is%20easy,the%20toggle%20to%20enable%20it) . (It's optional,If you want to limit the members,use it!)
+
+* Server ID (OPTIONAL) : The ID of your server which you can get by right-clicking the server name on top left of discord and selecting "Copy ID" be sure that you have developer mode ON.(It's optional,If you want to get a "UP and running" message in your server everytime you launch the bot,use it!)
+
+**When you did all of that you're ready to launch the bot you can do that from the Ding Dong.exe app which you can find on the Debug folder : "\DINGDONG-DiscordBot-master\DING DONG\bin\Debug"**
 
 
 
