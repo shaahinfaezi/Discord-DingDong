@@ -1,10 +1,12 @@
-![alt text](https://github.com/shaahinfaezi/DINGDONG-DiscordBot/blob/master/DING%20DONG/DD.ico?raw=true) 
+<p align="center">
+  <img src="https://github.com/shaahinfaezi/DINGDONG-DiscordBot/blob/master/DING%20DONG/DD.ico?raw=true">
+</p>
+
+   <h3> <p align="center"> :x: Tic-Tac-Toe :o: in Discord </p> </h3> 
+<p align="center"> <img src="https://img.shields.io/github/v/release/shaahinfaezi/Discord-DingDong"> </p>
 
 
-# :x: Tic-Tac-Toe :o: in Discord 
-
-
-### This is a Tic-Tac-Toe Bot for discord That I made for [my discord server](https://discord.gg/P2BrjMN)
+### This is a Tic-Tac-Toe Bot for discord That I made for [my discord server](https://discord.gg/P2BrjMN) using [Discord.net](https://github.com/discord-net/Discord.Net).
 
 ## Installing and Running the bot
 
