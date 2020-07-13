@@ -63,7 +63,7 @@ And also these for the ranks:
 
  **2.  Now you can play by choosing the number you want with this command:  `.ttt [number between 1 and 9]`**
 
- **3. You can also check your wins with this command(Leaderboards will be added) : `.tttstats`**
+ **3. You can also check your wins with this command: `.tttstats`**
 
 ### :black_circle: **Ranks :**
 
@@ -77,7 +77,7 @@ And also these for the ranks:
 
 **50 wins :  `Master`**
 
-### **__FEEL FREE TO CHANGE THE BOT HOWEVER YOU WANT AND PLZ STAR THE BOT__**
+### **__FEEL FREE TO CHANGE THE BOT HOWEVER YOU WANT AND PLZ STAR [@Ding Dong](https://github.com/shaahinfaezi/Discord-DingDong)__**
 
 
 
