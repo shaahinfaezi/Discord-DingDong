@@ -54,8 +54,7 @@ namespace DING_DONG.Commands
         public async Task TTTSTATS()
         {
            
-                if (Context.Channel.Id == Convert.ToUInt64(Config.bot.channelid))
-                {
+                
                     var account = UserAccounts.GetAccount(Context.User);
                     var embed = new EmbedBuilder();
                     embed.WithTitle("TICTACTOE STATS");
@@ -65,11 +64,7 @@ namespace DING_DONG.Commands
                     
                     
                
-            }
-            else
-            {
-                await Context.Channel.SendMessageAsync("You Can't do that!");
-            }
+         
         }
 
 
@@ -79,19 +74,15 @@ namespace DING_DONG.Commands
             if (player1 == null)
             {
                 
-                    if (Context.Channel.Id == Convert.ToUInt64(Config.bot.channelid))
-                    {
+                    
                         
                         Role_Add((SocketGuildUser)Context.User, "Player1Role");
                         player1 = Context.Guild.GetUser(Context.User.Id);
                         await Context.Channel.SendMessageAsync(player1.Username.ToString() + " is player 1");
                           
                        
-                    }
-                    else
-                    {
-                        await Context.Channel.SendMessageAsync("You Can't do that in this channel!");
-                    }
+                    
+                 
 
 
               
@@ -111,8 +102,7 @@ namespace DING_DONG.Commands
                     if (player1 != Context.User)
                     { 
                         
-                            if (Context.Channel.Id == Convert.ToUInt64(Config.bot.channelid))
-                            {
+                            
                                 Role_Add((SocketGuildUser)Context.User, "Player2Role");
                                 player2 = Context.Guild.GetUser(Context.User.Id);
                                 await Context.Channel.SendMessageAsync(player2.Username.ToString() + " is player 2");
@@ -132,11 +122,7 @@ namespace DING_DONG.Commands
                                 }
 
 
-                            }
-                            else
-                            {
-                                await Context.Channel.SendMessageAsync("You Can't do that in this channel!");
-                            }
+                           
                         }
                         else
                         {
@@ -161,8 +147,7 @@ namespace DING_DONG.Commands
         {
             char pickc = Convert.ToChar(pick);
             int picki = Convert.ToInt32(pick);
-            if (Context.Channel.Id == Convert.ToUInt64(Config.bot.channelid))
-            {
+            
                 if (TICTACTOE == true)
                 {
                     if ((char.IsNumber(pickc)) && (picki <= 9) && (1 <= picki))
@@ -237,11 +222,8 @@ namespace DING_DONG.Commands
                 {
                     await Context.Channel.SendMessageAsync("Please start the game first.");
                 }
-            }
-            else
-            {
-                await Context.Channel.SendMessageAsync("You Can't do that in this channel!");
-            }
+            
+           
         }
         //TICTACTOE
         public static bool Role_Check(SocketGuildUser user,string key)
