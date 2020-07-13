@@ -35,7 +35,7 @@ And also these for the ranks:
 
 }
 
-**#3** :  Open the bot's folder and go through this path "\DINGDONG-DiscordBot-master\DING DONG\bin\Debug\Resources" then edit or open the config.json file and set the following:
+**#3** :  Open the bot's folder and go through this path "\Discord-DingDong-master\DING DONG\bin\Debug\Resources" then edit or open the config.json file and set the following:
 
 * Token : Bot's Token which you can find in [Discord Developers Page](https://discord.com/developers/applications).
 
@@ -47,7 +47,7 @@ And also these for the ranks:
 
 * Server ID (OPTIONAL) : The ID of your server which you can get by right-clicking the server name on top left of discord and selecting "Copy ID" be sure that you have developer mode ON.(It's optional,If you want to get a "UP and running" message in your server everytime you launch the bot,use it!)
 
-**When you did all of that you're ready to launch the bot you can do that from the Ding Dong.exe app which you can find in the Debug folder : "\DINGDONG-DiscordBot-master\DING DONG\bin\Debug"**
+**When you did all of that you're ready to launch the bot you can do that from the Ding Dong.exe app which you can find in the Debug folder : "\Discord-DingDong-master\DING DONG\bin\Debug"**
 
 
 
