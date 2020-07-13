@@ -1,0 +1,12 @@
+{
+    "key":"value",
+    "Player1Role":"Player1",
+    "Player2Role":"Player2",
+    "TicTacToeRole":"TicTacToe",
+    "OwnerRole":"Owner",
+    "TTTBronzeRole":"TTT BRONZE",
+    "TTTSilverRole":"TTT SILVER",
+    "TTTGoldRole":"TTT GOLD",
+    "TTTDiamondRole":"TTT DIAMOND",
+    "TTTMasterRole":"TTT MASTER"
+}
