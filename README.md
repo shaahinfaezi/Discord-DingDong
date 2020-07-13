@@ -1,7 +1,7 @@
 ![alt text](https://github.com/shaahinfaezi/DINGDONG-DiscordBot/blob/master/DING%20DONG/DD.ico?raw=true) 
 
 
-# :x: Tic-Tac-Toe :o: in Discord!!!
+# :x: Tic-Tac-Toe :o: in Discord 
 
 
 ### This is a Tic-Tac-Toe Bot for discord That I made for [my discord server](https://discord.gg/P2BrjMN)
