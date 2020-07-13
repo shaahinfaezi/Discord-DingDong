@@ -48,6 +48,7 @@ namespace DING_DONG
             RPC_Create();
 
             _client.Log += Log;
+            
 
             await _client.LoginAsync(Discord.TokenType.Bot, Config.bot.token);
             await _client.StartAsync();
