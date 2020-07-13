@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DING DONG.exe" size="74736">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DING DONG.exe" size="73712">
       <assemblyIdentity name="DING DONG" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>CxzyufcagtDRxVCaRyPFfaYP7WarU07IxFUtTmcGd8M=</dsig:DigestValue>
+        <dsig:DigestValue>69LK9IwTIfjcU2kf9j3UOn+eBjuqlMpNC1AQEnedvBU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
