@@ -53,8 +53,7 @@ namespace DING_DONG.Commands
         [Command("TTTSTATS")]
         public async Task TTTSTATS()
         {
-            if (Role_Check((SocketGuildUser)Context.User, "TicTacToeRole"))
-            {
+           
                 if (Context.Channel.Id == Convert.ToUInt64(Config.bot.channelid))
                 {
                     var account = UserAccounts.GetAccount(Context.User);
@@ -65,11 +64,7 @@ namespace DING_DONG.Commands
                     await Context.Channel.SendMessageAsync("", false, embed.Build());
                     
                     
-                }
-                else
-                {
-                    await Context.Channel.SendMessageAsync("You Can't do that in this channel!");
-                }
+               
             }
             else
             {
@@ -83,8 +78,7 @@ namespace DING_DONG.Commands
         {
             if (player1 == null)
             {
-                if (Role_Check((SocketGuildUser)Context.User, "TicTacToeRole"))
-                {
+                
                     if (Context.Channel.Id == Convert.ToUInt64(Config.bot.channelid))
                     {
                         
@@ -100,11 +94,7 @@ namespace DING_DONG.Commands
                     }
 
 
-                }
-                else
-                {
-                    await Context.Channel.SendMessageAsync("You Can't do that!");
-                }
+              
             }
             else
             {
@@ -120,8 +110,7 @@ namespace DING_DONG.Commands
                 {
                     if (player1 != Context.User)
                     { 
-                        if (Role_Check((SocketGuildUser)Context.User, "TicTacToeRole"))
-                        {
+                        
                             if (Context.Channel.Id == Convert.ToUInt64(Config.bot.channelid))
                             {
                                 Role_Add((SocketGuildUser)Context.User, "Player2Role");
@@ -163,11 +152,7 @@ namespace DING_DONG.Commands
                 {
                     await Context.Channel.SendMessageAsync("Player 2 is already selected!");
                 }
-            }
-            else
-            {
-                await Context.Channel.SendMessageAsync("Please choose Player 1 first!");
-            }
+          
             }
         
    
