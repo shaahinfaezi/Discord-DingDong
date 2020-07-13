@@ -90,7 +90,7 @@ namespace DING_DONG.Commands
             else
             {
                 await Context.Channel.SendMessageAsync("Player 1 is already selected!");
-            }
+            }  
         }
         [Command("player2")]
         public async Task player2_()
