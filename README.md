@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.imgur.com/jwfdOgSs.png">
+  <img src="https://i.imgur.com/jwfdOgSb.png">
 </p>
 
    <h3> <p align="center"> :x: Tic-Tac-Toe :o: in Discord </p> </h3> 
