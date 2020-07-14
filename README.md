@@ -1,4 +1,4 @@
-<meta name="google-site-verification" content="https://github.com/shaahinfaezi/Discord-DingDong">
+<meta name="google-site-verification" content="MVXc5sTMWFeavnTAqpnUvDiBBta1oYdLgxzFjYR2yGM" />
 <p align="center">
   <img src="https://i.imgur.com/jwfdOgSb.png">
 </p>
