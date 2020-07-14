@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/shaahinfaezi/DINGDONG-DiscordBot/blob/master/DING%20DONG/DD.ico?raw=true">
+  <img src="https://i.imgur.com/jwfdOgS.png">
 </p>
 
    <h3> <p align="center"> :x: Tic-Tac-Toe :o: in Discord </p> </h3> 
