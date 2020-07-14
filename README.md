@@ -1,4 +1,4 @@
-<meta name="google-site-verification" content="MVXc5sTMWFeavnTAqpnUvDiBBta1oYdLgxzFjYR2yGM" />
+<meta name="google-site-verification" content="c1kuD-K2HIVF635lypcsWPoD4kilo5-jA_wBFyT4uMY" />
 <p align="center">
   <img src="https://i.imgur.com/jwfdOgSb.png">
 </p>
