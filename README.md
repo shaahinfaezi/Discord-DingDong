@@ -3,7 +3,7 @@
   <img src="https://i.imgur.com/jwfdOgSb.png">
 </p>
 
-   <h3> <p align="center"> :x: Tic-Tac-Toe :o: in Discord </p> </h3> 
+<h3> <p align="center"> :x: Tic Tac Toe :o: in Discord </p> </h3> 
 <p align="center"> <img src="https://img.shields.io/github/v/release/shaahinfaezi/Discord-DingDong"> </p>
 
 <p align="center">
