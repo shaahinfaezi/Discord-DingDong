@@ -5,7 +5,7 @@
 
  jobs:
    build:
-     executor: docker/default     
+     executor: docker  
     
      steps:
        - checkout
