@@ -5,7 +5,7 @@
 
  jobs:
    build:
-     executor: machine
+     executor: macos
      
      steps:
        - checkout
