@@ -5,7 +5,7 @@
 
  jobs:
    build:
-     executor: docker  
+     executor: win
     
      steps:
        - checkout
