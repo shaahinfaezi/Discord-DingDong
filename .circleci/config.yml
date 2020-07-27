@@ -6,7 +6,7 @@
  jobs:
    build:
      executor: machine
-    
+     shell: powershell.exe
      steps:
        - checkout
        - run: dotnet build
