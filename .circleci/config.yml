@@ -5,7 +5,7 @@
 
  jobs:
    build:
-     executor: win/default
+     executor: machine
      
      steps:
        - checkout
