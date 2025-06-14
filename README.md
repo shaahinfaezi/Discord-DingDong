@@ -81,8 +81,6 @@ And also these for the ranks:
 
 **50 wins :  `MASTER`**
 
-### **__FEEL FREE TO CHANGE THE BOT HOWEVER YOU WANT AND PLZ STAR [@Ding Dong](https://github.com/shaahinfaezi/Discord-DingDong)__**
-
 
 
 
