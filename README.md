@@ -10,7 +10,7 @@
   <a href="https://imgur.com/phDSrMn"><img src="https://i.imgur.com/phDSrMn.gif" title="source: imgur.com" /></a>
 </p>
 
-### This is a Tic-Tac-Toe Bot for discord That I made for [my discord server](https://discord.gg/P2BrjMN) using [Discord.net](https://github.com/discord-net/Discord.Net).
+### This is a Tic-Tac-Toe Bot for discord using [Discord.net](https://github.com/discord-net/Discord.Net).
 
 ## Installing and Running the bot
 
